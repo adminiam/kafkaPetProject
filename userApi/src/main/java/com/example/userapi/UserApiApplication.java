@@ -1,11 +1,13 @@
-package com.example.kafkapetproject;
+package com.example.userapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaPetProjectApplication {
+public class UserApiApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(KafkaPetProjectApplication.class, args);
+        SpringApplication.run(UserApiApplication.class, args);
     }
+
 }
