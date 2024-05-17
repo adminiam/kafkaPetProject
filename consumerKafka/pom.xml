@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>kafkaPetProject</artifactId>
+    <artifactId>consumerKafka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kafkaPetProject</name>
-    <description>kafkaPetProject</description>
+    <name>consumerKafka</name>
+    <description>consumerKafka</description>
     <properties>
         <java.version>21</java.version>
     </properties>
@@ -65,6 +65,7 @@
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
         </dependency>
+
     </dependencies>
 
     <build>
